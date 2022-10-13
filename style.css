@@ -1,9 +1,5 @@
 
-.body{
-    display: flex;
-    justify-content: center;
-    
-    }
+
     .color {
     width: 30px;
     height: 30px;
@@ -17,15 +13,22 @@
     border: none;
     border: 1px black;
     display: inline-block;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
     }
     
     #pixel-board{
+
+
     display: flex;
     flex-wrap: wrap;
     width: 250px;
     height: 200px;
+   
     }
     main{
     display: flex;
     flex-direction: column;
+    text-align: center;
     } 
