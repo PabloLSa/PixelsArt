@@ -24,18 +24,28 @@
 
   </header>
   <main>
-    <section style="text-align: center ;"  id="color-palette">
-      <button id="clear-board" type="button">Limpar</button>
-      <br>
-      
-      <input id="board-size" type="text">
-      <button id="generate-board">VQV</button>
+    <section id="color-palette">
+      <div class="color selected"></div>
+      <div class="color"></div>
+      <div class="color"></div>
+      <div class="color"></div>
+    </section>
+    <button id="clear-board" type="button">Limpar</button>
+    <input min='1' max='51' id="board-size" type="text">
+    <button id="generate-board">VQV</button>
+    <br>
 
+
+
+
+
+    <section id="pixel-board" class="board-pixels">
+    </section>
+    <br>
     </section>
 
     <br>
-    <section id="pixel-board" class="board-pixels">
-    </section>
+
   </main>
 
 

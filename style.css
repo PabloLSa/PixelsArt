@@ -1,6 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  text-align: center;
+
+}
+
+
+#color-palette {
+  background-color: white;
+  margin: 0 auto;
+  padding: 16px;
+}
+
+
 .color {
-  width: 30px;
   height: 30px;
+  width: 30px;
+  border: 1px solid black;
   display: inline-block;
 }
 
@@ -12,11 +31,17 @@
 }
 
 #pixel-board {
-  display: flex;
+  display: inline-block;
+  margin: 10px auto;
+  width: 250px;
 
 }
 
-#board-size {
-  margin: 5px;
+.pixel-linha {
+  display: inline-block;
 
+}
+
+.button {
+  margin-bottom: 10px;
 }
