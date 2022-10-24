@@ -31,16 +31,11 @@ body {
 }
 
 #pixel-board {
-  display: inline-block;
   margin: 10px auto;
-  width: 250px;
+  display: table;
 
 }
 
-.pixel-linha {
-  display: inline-block;
-
-}
 
 .button {
   margin-bottom: 10px;
