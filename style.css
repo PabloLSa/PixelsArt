@@ -5,6 +5,8 @@
 
 body {
   text-align: center;
+  background-image: url('https://st2.depositphotos.com/2878281/10976/i/950/depositphotos_109762036-stock-photo-workplace-artist-top-view-paint.jpg');
+  background-size: cover;
 
 }
 
@@ -13,6 +15,7 @@ body {
   background-color: white;
   margin: 0 auto;
   padding: 16px;
+  border-radius: 2px;
 }
 
 
