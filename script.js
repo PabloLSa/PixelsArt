@@ -148,7 +148,7 @@ const verify = () => {
   } else if (numbers > 30) {
     pixelBoard.innerHTML = ' ';
     localStorage.clear();
-    quadroPixels(50);
+    quadroPixels(30);
   } else if (numbers < 5) {
     pixelBoard.innerHTML = ' ';
     localStorage.clear();
