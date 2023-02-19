@@ -145,7 +145,7 @@ const verify = () => {
 
   if (numbers <= 0 || numbers === undefined) {
     alert('Board inválido!');
-  } else if (numbers > 50) {
+  } else if (numbers > 30) {
     pixelBoard.innerHTML = ' ';
     localStorage.clear();
     quadroPixels(50);
