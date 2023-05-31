@@ -29,24 +29,42 @@ O código foi desenvolvido em JavaScript e utiliza HTML e CSS para a estrutura e
 
 Variáveis
 botaoCores: botão utilizado para gerar cores aleatórias para a paleta;
+
 botaoLimpeza: botão utilizado para limpar o quadro;
+
 pixelBoard: div que representa o quadro de pixels;
+
 color: array que representa as cores da paleta;
+
 vqv: botão utilizado para criar o quadro com o tamanho informado pelo usuário;
 colorBlack: primeira cor da paleta, que é a cor preta.
+
 Funções
-pixelLInha: cria a linha de pixels do quadro;
-criarPaleta: cria as cores da paleta;
-quadroPixels: cria o quadro de pixels;
-createColor: gera cores aleatórias para a paleta;
-pintandoPaleta: pinta as cores da paleta;
-atribuindoClasse: atribui a classe "selected" à cor selecionada da paleta;
-pintarQuadrado: pinta o quadrado selecionado do quadro com a cor selecionada;
-salvandoCores: salva as cores da paleta no LocalStorage;
-recuperarCores: recupera as cores da paleta salvas no LocalStorage;
-salvandoPixel: salva as cores dos pixels do quadro no LocalStorage;
-recuperandoPixel: recupera as cores dos pixels do quadro salvas no LocalStorage;
-verify: verifica as condições informadas pelo usuário para criar o quadro.
+
+- pixelLInha: cria a linha de pixels do quadro;
+
+- criarPaleta: cria as cores da paleta;
+
+- quadroPixels: cria o quadro de pixels;
+
+- createColor: gera cores aleatórias para a paleta;
+
+- pintandoPaleta: pinta as cores da paleta;
+
+- atribuindoClasse: atribui a classe "selected" à cor selecionada da paleta;
+
+- pintarQuadrado: pinta o quadrado selecionado do quadro com a cor selecionada;
+
+- salvandoCores: salva as cores da paleta no LocalStorage;
+
+- recuperarCores: recupera as cores da paleta salvas no LocalStorage;
+
+- salvandoPixel: salva as cores dos pixels do quadro no LocalStorage;
+
+- recuperandoPixel: recupera as cores dos pixels do quadro salvas no LocalStorage;
+
+- verify: verifica as condições informadas pelo usuário para criar o quadro.
+
 O código implementa um quadro de pixels interativo no navegador, onde o usuário pode selecionar cores de uma paleta, pintar os pixels e limpar a área do quadro. As informações são armazenadas no localStorage do navegador, permitindo que o usuário retorne à tela e continue a interagir com o quadro de onde parou.
 
 O fluxo de dados começa com a criação do quadro de pixels e da paleta de cores. Em seguida, são definidas funções para pintar os pixels e para pintar a paleta de cores, utilizando valores aleatórios. A classe "selected" é atribuída ao botão de cor selecionado, indicando qual é a cor que será aplicada ao clicar nos pixels. As informações de cores das paletas e pixels são salvas e recuperadas do localStorage.
