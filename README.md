@@ -28,13 +28,13 @@ Funcionamento do código
 O código foi desenvolvido em JavaScript e utiliza HTML e CSS para a estrutura e estilização da ferramenta de pintura.
 
 Variáveis
-botaoCores: botão utilizado para gerar cores aleatórias para a paleta;
+- botaoCores: botão utilizado para gerar cores aleatórias para a paleta;
 
-botaoLimpeza: botão utilizado para limpar o quadro;
+- botaoLimpeza: botão utilizado para limpar o quadro;
 
-pixelBoard: div que representa o quadro de pixels;
+- pixelBoard: div que representa o quadro de pixels;
 
-color: array que representa as cores da paleta;
+- color: array que representa as cores da paleta;
 
 vqv: botão utilizado para criar o quadro com o tamanho informado pelo usuário;
 colorBlack: primeira cor da paleta, que é a cor preta.
